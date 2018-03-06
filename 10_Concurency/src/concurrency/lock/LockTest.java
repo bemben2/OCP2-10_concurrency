@@ -40,7 +40,7 @@ class Somebody implements Runnable {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		} finally {
-			System.out.println(Thread.currentThread().getName() + " is done using the ATM machine");
+			System.out.println(Thread.currentThread().getName() + " is done using the ATM machinedfg");
 			System.out.println();
 			machineLock.unlock();
 		}
